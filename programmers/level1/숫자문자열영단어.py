@@ -1,4 +1,3 @@
-
 def solution(s):
     lst_num = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
     for num in lst_num: 
