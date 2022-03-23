@@ -1,2 +1,3 @@
 def solution(x):
-    pass 
+    for i in range(10): 
+        print(i * 100 )
