@@ -1,3 +1,21 @@
+# 모험가 길드 - 그룹 수의 최댓값 
+n = int(input())
+lst_n = list(map(int, input().split()))
+lst_n.sort()
+
+people_cnt = 0
+group_cnt = 0 
+
+for g in lst_n: 
+    people_cnt += 1
+    if people_cnt >= g:
+        people_cnt = 0
+        group_cnt += 1
+        continue 
+print(group_cnt)
+
+
+
 # 문제 1
 def maxProfit(prices):
     result = 0

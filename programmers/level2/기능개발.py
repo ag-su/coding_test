@@ -7,7 +7,7 @@ def solution(progresses, speeds):
         
     while True: 
         count = 1                         
-            
+    
         if len(day_list) == 0:
             break
         
