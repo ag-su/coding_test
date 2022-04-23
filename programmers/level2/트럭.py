@@ -1,6 +1,5 @@
 from collections import deque 
 def solution(bridge_length, weight, truck_weights):
-
     queue_bridge = deque([0]*bridge_length) # 다리 길이만큼 만들어 놓음 
     n = 0
     time = 0
