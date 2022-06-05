@@ -91,6 +91,7 @@ print(subsets([0]))
 print(subsets([0,1]))
 print(subsets([0,1,2]))
 
+
 def house_num(map_str):
     graph = [list(map(int, k)) for k in map_str.split() if k]
     n = len(graph)
