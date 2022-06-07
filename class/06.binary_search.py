@@ -204,6 +204,6 @@ def find_two_sum2(nums, target):
             elif nums[mid] > expected:
                 right = mid - 1
             else:
-                return i, mid 
+                return i, mid   
 
 print(find_two_sum2([2, 7, 11, 15], 22))
